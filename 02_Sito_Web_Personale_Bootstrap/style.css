@@ -1,0 +1,66 @@
+
+.banner img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: auto;
+
+}
+.imgAcciuga img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Amarante';
+  font-size: 22px;
+  text-align: center;
+  color: rgb(74, 121, 105);
+}
+
+p {
+  font-family: 'Annie Use Your Telescope';
+  font-size: 22px;
+  max-width: 100%;
+}
+
+.col-4{
+  position: sticky;
+  top: 0;
+  width: auto;
+  height: 500px;
+}
+
+.footer {
+  display: flex;
+  position: relative;
+  background-color: #202A2E;
+  color: aliceblue;
+  font-family: 'Arvo';
+  font-size: 22px;
+  width: 100%;
+  height: auto;
+}
+
+.footer h6 {
+  width: 50%;
+  height: auto;
+}
+
+
+@media screen and (max-width: 500px) {
+.body{
+  padding-right: 0px ;
+}
+.col-4{
+  display: none;
+}
+.col-8{
+  text-align: center;
+  padding:0;
+  margin-left: auto;
+  margin-right: auto;
+}
+}

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Amarante' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet'>
+    <link rel="icon" href="./download.png" type="image/icon type">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <title>Alimenti e Nutrizione </title>
+</head>
+
+<body>
+    <div class="banner">
+        <div class="logo">
+            <a href="https://www.alimentinutrizione.it/">
+                <img src="https://www.alimentinutrizione.it/images/logo_AlimentiNutrizioni_1.png" alt="logo">
+            </a>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://www.alimentinutrizione.it/il-portale">Il portale</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page"
+                            href="https://www.alimentinutrizione.it/news">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page"
+                            href="https://www.alimentinutrizione.it/contatti">Contatti</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Cerca...</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="imgAcciuga">
+        <img src="./acciuga.jpg" alt="acciuga">
+    </div>
+    <h1 id="title">Acciuga o alice</h1>
+    <!---
+    <div class="Body">
+        <div class="slider">
+            <ul>
+                <li><a href="https://www.alimentinutrizione.it/tabelle-di-composizione-degli-alimenti">Prefazione</a>
+                </li>
+                <li><a href="https://www.alimentinutrizione.it/introduzione">Introduzione</a></li>
+                <li><a href="https://www.alimentinutrizione.it/simboli-abbreviazioni-sinonimi">Presentazione</a></li>
+                <li><a href="https://www.alimentinutrizione.it/tabelle-nutrizionali">Ricerca e Dati</a></li>
+            </ul>
+
+            <img src="https://www.alimentinutrizione.it/images/dna.png" alt="alimento">
+
+        </div>
+
+        <div class="tabletext">
+            <table>
+                <tbody>
+                    <tr style="background-color: #008000;">
+                        <td>ACCIUGA O ALICE</td>
+                        <td></td>
+                    </tr>
+                    <tr style="background-color: #C7E1F0;">
+                        <td>Categoria</td>
+                        <td>Prodotti della pesca</td>
+                    </tr>
+                    <tr>
+                        <td>Codice Alimento</td>
+                        <td>120010</td>
+                    </tr>
+                    <tr style="background-color: #C7E1F0;">
+                        <td>Nome Scientifico</td>
+                        <td>Engraulis enchrasicholus</td>
+                    </tr>
+                    <tr>
+                        <td>English Name</td>
+                        <td>Anchovy, fresh, raw</td>
+                    </tr>
+                    <tr style="background-color: #C7E1F0;">
+                        <td>Parte Edibile</td>
+                        <td>75 %</td>
+                    </tr>
+                    <tr>
+                        <td>Porzione</td>
+                        <td>150 g</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Uno dei principali obiettivi che il CREA Centro di ricerca Alimenti e Nutrizione si è da sempre posto
+                nella
+                preparazione delle Tabelle/Banche Dati è stato quello di produrre nuovi dati analitici originali per
+                realizzare
+                uno strumento, per quanto incompleto, costituito da dati di elevata qualità sia dal punto di vista
+                analitico
+                che
+                di campionamento. Sono pochissimi infatti gli Enti pubblici in grado di provvedere a questo compito e
+                cercare di
+                rappresentare, nonostante l’attività sia onerosa in termini di risorse umane, strutturali e finanziarie,
+                il
+                continuo evolversi dei prodotti alimentari presenti sul mercato nazionale, pubblicando dati italiani di
+                qualità.
+                La versione attuale raccoglie la maggior parte dei dati di composizione che sono stati prodotti negli
+                ultimi
+                dieci anni presso l’attuale Centro Alimenti e Nutrizione ed una revisione totale dei dati
+                precedentemente
+                pubblicati e validati.
+                Le procedure di campionatura, determinazioni analitiche, documentazione e compilazione dei dati sono
+                state
+                effettuate secondo la standardizzazione, elaborata con altri partner europei nell’ambito del progetto
+                EuroFIR
+                (European Food Information Resource), Network di eccellenza sulle Banche Dati di composizione degli
+                alimenti. Il
+                Centro Alimenti e Nutrizione è attualmente membro dell’associazione internazionale no-profit EuroFIR
+                AISBL
+                (Association Internationale Sans But Lucratif).
+                Per un utilizzo dei dati più consapevole e valido nei vari contesti, si consiglia di leggere
+                attentamente la
+                sezione relativa alla PRESENTAZIONE DATI che potrà guidare gli utilizzatori.
+            </p>
+            <div class="image">
+                <img src="./chart-title.svg" alt="grafico">
+            </div>
+        </div>
+
+    </div>
+
+
+-->
+    <div class="row">
+        <div class="col-4">
+            <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+                <nav class="nav nav-pills flex-column">
+                    <a class="nav-link" href="#item-1">PREFAZIONE</a>
+                    <a class="nav-link" href="#item-2">INTRODUZIONE</a>
+                    <a class="nav-link" href="#item-3">PRESENTAZIONE DATI</a>
+                    <a class="nav-link" href="#item-4">SIMBOLI - ABBREVIAZIONI - SINONIMI</a>
+                    <a class="nav-link" href="#item-5">RICERCA DATI</a>
+                    <nav class="nav nav-pills flex-column">
+                        <a class="nav-link ms-3 my-1" href="#item-5-1">RICERCA DATI PER ALIMENTO
+                        </a>
+                        <a class="nav-link ms-3 my-1" href="#item-5-2">RICERCA DATI PER CATEGORIA
+                        </a>
+                        <a class="nav-link ms-3 my-1" href="#item-5-1">RICERCA DATI PER NUTRIENTE O COMPONENTE
+                        </a>
+                        <a class="nav-link ms-3 my-1" href="#item-5-1">RICERCA DATI ORDINE ALFABETICO
+                        </a>
+                    </nav>
+                    <a class="nav-link" href="#item-6">GRUPPO DI LAVORO</a>
+                    <a class="nav-link" href="#item-7">BIBLIOGRAFIA</a>
+                    <a class="nav-link" href="#item-8">LINK</a>
+                </nav>
+            </nav>
+        </div>
+
+        <div class="col-8">
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true"
+                class="scrollspy-example-2" tabindex="0">
+                <div id="item-1">
+                    <h4>PREFAZIONE</h4>
+                    <p>Le Tabelle di Composizione degli Alimenti, aggiornamento 2019, raccolgono gran parte dei dati
+                        sperimentali e compilativi che il CREA Centro Alimenti e Nutrizione ha prodotto e selezionato
+                        negli ultimi anni relativi agli alimenti maggiormente consumati in Italia. I dati possono essere
+                        consultati dal sito liberamente da tutti gli interessati, dal consumatore all’esperto, e se
+                        utilizzati per diversi scopi (scientifici, educativi, commerciali…) si chiede di rispettare i
+                        diritti di proprietà intellettuale e riportare la fonte originale.
+                        Riferimento: Tabelle di composizione degli alimenti, Aggiornamento 2019- Website a cura di L.
+                        Marletta e E. Camilli
+                    </p>
+                </div>
+                <div id="item-2">
+                    <h4>INTRODUZIONE</h4>
+                    <p>Uno dei principali obiettivi che il CREA Centro di ricerca Alimenti e Nutrizione si è da sempre
+                        posto nella preparazione delle Tabelle/Banche Dati è stato quello di produrre nuovi dati
+                        analitici originali per realizzare uno strumento, per quanto incompleto, costituito da dati di
+                        elevata qualità sia dal punto di vista analitico che di campionamento. Sono pochissimi infatti
+                        gli Enti pubblici in grado di provvedere a questo compito e cercare di rappresentare, nonostante
+                        l’attività sia onerosa in termini di risorse umane, strutturali e finanziarie, il continuo
+                        evolversi dei prodotti alimentari presenti sul mercato nazionale, pubblicando dati italiani di
+                        qualità.
+                        La versione attuale raccoglie la maggior parte dei dati di composizione che sono stati prodotti
+                        negli ultimi dieci anni presso l’attuale Centro Alimenti e Nutrizione ed una revisione totale
+                        dei dati precedentemente pubblicati e validati.
+                        Le procedure di campionatura, determinazioni analitiche, documentazione e compilazione dei dati
+                        sono state effettuate secondo la standardizzazione, elaborata con altri partner europei
+                        nell’ambito del progetto EuroFIR (European Food Information Resource), Network di eccellenza
+                        sulle Banche Dati di composizione degli alimenti. Il Centro Alimenti e Nutrizione è attualmente
+                        membro dell’associazione internazionale no-profit EuroFIR AISBL (Association Internationale Sans
+                        But Lucratif).
+                        Per un utilizzo dei dati più consapevole e valido nei vari contesti, si consiglia di leggere
+                        attentamente la sezione relativa alla PRESENTAZIONE DATI che potrà guidare gli utilizzatori.</p>
+                </div>
+            </div>
+            <div id="item-3">
+                <h4>PRESENTAZIONE DATI</h4>
+                <p>Questa versione contiene circa 900 alimenti suddivisi in 20 categorie alimentari. I nutrienti e
+                    componenti presenti sono oltre 120, non tutti disponibili per tutti gli alimenti presenti.
+
+                    I valori riportati sono per la maggior parte dati sperimentali originali (∼ 80%), ottenuti da studi
+                    programmati ad hoc; una parte limitata provengono da una accurata selezione bibliografica,
+                    prevalentemente italiana, e circa il 2% sono dati calcolati o stimati da alimenti simili. Per
+                    l’acquisizione dei dati bibliografici è stato approntato anche uno specifico protocollo ed
+                    effettuato un censimento dei laboratori d’analisi, pubblici e privati, ipotetici produttori e
+                    fruitori di dati di composizione.</p>
+            </div>
+            <div id="item-4">
+                <h4>SIMBOLI - ABBREVIAZIONI - SINONIMI</h4>
+                <p>...</p>
+            </div>
+
+            <div id="item-5">
+                <h4>RICERCA DATI</h4>
+                <p>La Ricerca Dati permette di consultare le Tabelle di Composizione degli Alimenti utilizzando una
+                    delle
+                    seguenti modalità:
+
+                    Ricerca per alimento: digitare liberamente il nome dell’alimento o parte di esso nella casella. Il
+                    risultato sarà una lista di alimenti contenenti i criteri richiesti nel nome dell’alimento
+                    Per categoria: selezionare una delle categorie (di appartenenza dell’alimento). Il risultato sarà un
+                    elenco di tutti gli alimenti presenti, appartenenti alla categoria merceologica/ che hanno
+                    caratteristiche simili.
+                    Per nutriente o componente: selezionare un nutriente o un componente. Il risultato sarà una lista di
+                    alimenti ordinata in base al valore decrescente del nutriente o componente selezionato. Inoltre è
+                    possibile restringere la ricerca selezionando anche una categoria.
+                    Ricerca per ordine alfabetico: è possibile ricercare gli alimenti utilizzando un elenco riportato in
+                    ordine alfabetico
+                    Si evidenzia che il quadro dei risultati è relativo alla presenza dei nutrienti esistenti per
+                    quell’alimento selezionato.</p>
+            </div>
+            <div id="item-5-1">
+                <h5>RICERCA DATI PER ALIMENTO</h5>
+                <p>digitare liberamente il nome dell’alimento o parte di esso nella casella. Il risultato sarà una lista
+                    di
+                    alimenti contenenti i criteri richiesti nel nome dell’alimento
+                    (es: pane= Marzapane, Pane al malto, Pane azzimo, Pane bianco, Pane di segale, Pane formato rosetta,
+                    Pane integrale, Pane semintegrale, Panettone)
+
+                    Nota: il nome degli alimenti appartenenti alle categorie Frutta e Vegetali è in forma plurale.
+
+                    Si evidenzia che il quadro dei risultati è relativo alla presenza dei nutrienti esistenti per
+                    quell’alimento selezionato.</p>
+            </div>
+            <div id="item-5-2">
+                <h5>RICERCA DATI PER CATEGORIA</h5>
+                <p>selezionare una delle categorie (di appartenenza dell’alimento). Il risultato sarà un elenco di tutti
+                    gli
+                    alimenti presenti, appartenenti alla categoria merceologica/ che hanno caratteristiche simili.
+                    Si evidenzia che il quadro dei risultati è relativo alla presenza dei nutrienti esistenti per
+                    quell’alimento selezionato.</p>
+            </div>
+            <div id="item-5-3">
+                <h5>RICERCA DATI PER NUTRIENTE O COMPONENTE</h5>
+                <p>selezionare un nutriente o un componente. Il risultato sarà una lista di alimenti ordinata in base al
+                    valore decrescente del nutriente o componente selezionato.
+                    Si evidenzia che il quadro dei risultati è relativo alla presenza dei nutrienti esistenti per
+                    quell’alimento selezionato.</p>
+            </div>
+            <div id="item-5-4">
+                <h5>RICERCA DATI ORDINE ALFABETICO</h5>
+                <p>è possibile ricercare gli alimenti utilizzando un elenco riportato in ordine alfabetico.
+                    Si evidenzia che il quadro dei risultati è relativo alla presenza dei nutrienti esistenti per
+                    quell’alimento selezionato.</p>
+            </div>
+            <div id="item-6">
+                <h4>GRUPPO DI LAVORO</h4>
+                <p>Responsabile scientifico
+                    Dott.ssa Luisa Marletta
+
+                    dal 2021 Dott.ssa Stefania Marconi (stefania.marconi@crea.gov.it)
+
+                    Curatori
+                    Luisa Marletta & Emanuela Camilli (luisa.marletta@crea.gov.it; emanuela.camilli@crea.gov.it)
+
+                    Coautori:
+                    Altero Aguzzi, Pasquale Buonocore, Laura D’Evoli, Alessandra Durazzo, Paolo Gabrielli, Loretta
+                    Gambelli,
+                    Silvia Lisciani, Massimo Lucarini, Stefania Marconi, Stefano Nicoli Ferrari, Cecilia Rossetti,
+                    Stefania
+                    Ruggeri, Aida Turrini.
+
+                    Un ringraziamento particolare alla Dott.ssa Laura D’Addezio per aver contribuito alla codifica
+                    Langual
+                    (codice descrittivo internazionale).
+
+                    Un ringraziamento va a tutti i colleghi del Centro Alimenti e Nutrizione che sono intervenuti a
+                    livelli
+                    diversi, mettendo a disposizione i dati sperimentali da loro prodotti e a tutti coloro che con
+                    suggerimenti
+                    e consigli hanno collaborato alla realizzazione di questo aggiornamento.</p>
+            </div>
+            <div id="item-7">
+                <h4>BIBLIOGRAFIA</h4>
+                <p>ACCARDI M., MACRI A. Aminoacidi liberi e totali delle parti edibili di mammiferi, uccelli, pesci e
+                    molluschi
+                    Arch. Vet. It. 24, 11, 1973
+                    ADAMS M.L. Evaluation of direct saponification method for determination of cholesterol in meat
+                    J.Assoc. Off.
+                    Anal. Chem. 69, 5, 1986
+                    ALAMANNI M.C., COSSU M., MURA M. Valutazione della composizione chimica e valore nutrizionale del
+                    Cynara
+                    scolymus var. Spinoso sardo. La Rivista di Scienza dell'Alimentazione.30 (2001) n.4, 345-351
+                    ALBALÀ HURTADO, S., NOVELLA-RODRIGUEZ, VECIANA-NOGUÉS, M. T., MARINÉ-FONT, A. Determination of
+                    vitamins A
+                    and E in infant milk formulae by highperformance liquid chromatography. Journal of Chromatography A,
+                    778(1–2), p.
+                    243–246; 1997
+                    ALFA M., DI BELLA G., SALVO GIACOMO DUGO F., BERDAR A. Composizione in acidi grassi di alcuni
+                    Sparidi del
+                    Mediterraneo Riv. It. Sostanze Grasse 71, 67-71 1994
+                    ALLOGGIO V., CAPONIO F., DELEONARDIS A. Indagine preliminare sul cacioricotta caprino pugliese Sci.
+                    e Tecn.
+                    Lattiero-Caseario 46 (3), 135-147, 1995
+                    AMATI A., DONATI A.M. e GALASSI S. Ricerche analitiche e tecnologiche sui vini di Romagna Riv. Sci.
+                    Tecn.
+                    Alim. 1, 27, 1972
+                    AMBROSOLI R., PISU E. Aspetti nutrizionali del formaggio fontina Riv. Soc. It. Sci. Alim. 4,
+                    393-398, 1996
+                    AMERIO M., RUGGI C., BADINI C. Meat quality of reared fish: nutritional aspects Ital. J. Food Sci.
+                    3,
+                    221-229, 1996
+                    AMODIO-COCCHIERI R., ARNESE A., RONCIONI A., SILVESTRI G. Evaluation of the selenium content of the
+                    traditional Italian diet Inter. J. Food Sci. Nutr. 46, 149-154, 1995</p>
+            </div>
+
+            <div id="item-8">
+                <h4>LINK</h4>
+                <p>Nazionali
+</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+
+        <h6>
+            Il CREA, Centro di ricerca Alimenti e la Nutrizione, non si assume alcuna responsabilità per gli
+            eventuali
+            problemi derivanti dall'utilizzazione del presente sito o di eventuali siti esterni collegati
+        </h6>
+
+        <h6>
+            Per richiedere qualsisi informazione
+            contattare i seguenti recapiti
+
+            Tel:+39 06 514941
+
+            Fax:+39 06 51494550
+
+            Email: info@crea.gov.it
+        </h6>
+
+    </div>
+    <script src="javaScript.js"></script>
+</body>
+
+</html>
